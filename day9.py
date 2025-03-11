@@ -1,12 +1,11 @@
 # 사용자 정의 함수
 # 사용자 가 직접 만들어 사용 하는 함수
-# def 함수이름():
+# def 함수 이름():
     # 수행할 코드
 # 기본 적인 사용자 정의 함수
 # def func1():
 #     print("Hello World")
-
-
+#
 # func1()
 # func1()
 # func1()
@@ -14,7 +13,7 @@
 # def plus():
 #     a = 2  # 지역 변수
 #     b = 3
-#     print(a+b)
+#     print(a + b)
 #
 # plus()
 
@@ -33,12 +32,12 @@
 
 # def plus(x, y):
 #    print( x + y )
-#
+
 # plus(5, 6)
 
-# def hello(name=""):
-#     print(f"안녕 하세요 {name} 입니다.")
-#
+# def hello(name="홍길동"):
+#     print(f"안녕 하세요 {name}입니다.")
+
 # hello()
 # hello("찬호")
 
@@ -46,7 +45,8 @@
 # def introduce(name, age):
 #     print(f"제 이름은 {name}이고 나이는 {age}입니다.")
 #
-# introduce(age=26, name= "찬호")
+# introduce(26, "찬호")
+# introduce(age=26, name= "찬호") # 직접 지정 가능
 
 # 리턴 값이 있는 사용자 정의 함수
 
@@ -140,21 +140,21 @@
 # timer(3, hello) #예시
 
 # lambde 함수 (익명 함수, 미시 함수)
-# 특정 범위 내에 서만 사용 되거나 호출 되는 횟수가 한번인 경우에
+# 특정 범위 내에 서만 사용 되거나 호출 되는 횟수가 한번인 경우에 유용 하다
 # lambda 매개 변수1, 매개 변수 2 ... : 함수 내부 코드
 
 # def plus(x, y):
 #     return x + y
 # print(plus(4, 5))
 #
-# add_lambda = lambda x, y: x + y
+# add_lambda = lambda x, y: x + y # 꼬리 + 털 = 고양이
 # print(add_lambda(4, 5))
 
 # numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # double =list(map(lambda x: x * 2, numbers ))
 # print(double)
 
-# parity = lambda x: "짝수" if x % 2 == 0 else "홀수"
+# parity = lambda a: "짝수" if a % 2 == 0 else "홀수" # 삼항 연산자 참이면 앞 거짓 이면 뒤
 #
 # print(parity(2))
 
@@ -181,14 +181,14 @@
 # 홀수 이면 홀수를 출력 하는 함수
 
 # 답
-a = int(input("숫자 : "))
-def 홀짝(v):
-    if v % 2 == 0 :
-        print("짝수")
-    else:
-        print("홀수")
-
-홀짝(a)
+# a = int(input("숫자 : "))
+# def 홀짝(v):
+#     if v % 2 == 0 :
+#         print("짝수")
+#     else:
+#         print("홀수")
+#
+# 홀짝(a)
 
 
 
