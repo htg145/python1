@@ -1,0 +1,31 @@
+{
+    "nickname": "\ud30c\uc774\uc158",
+    "level": 1,
+    "gold": 0,
+    "attack": 10,
+    "exp": 0,
+    "max_exp": 100,
+    "hp": 100,
+    "max_hp": 100,
+    "mp": 50,
+    "max_mp": 50,
+    "cri_luk": 0,
+    "skills": [
+        {
+            "name": "\ub2ec\ud33d\uc774 \uc138\ub9c8\ub9ac",
+            "mp_cost": 10,
+            "damage_multiple": 1.2
+        },
+        {
+            "name": "\ub2ec\ud33d\uc774 \ub124\ub9c8\ub9ac",
+            "mp_cost": 18,
+            "damage_multiple": 1.5
+        },
+        {
+            "name": "\ub2ec\ud33d\uc774 \ub2e4\uc12f \ub9c8\ub9ac",
+            "mp_cost": 23,
+            "damage_multiple": 1.8
+        }
+    ],
+    "items": []
+}
