@@ -110,3 +110,4 @@ def shop(player):
         print("구매를 취소 했습 니다.")
     else:
         print("잘못된 입력 입니다.")
+        #dongyoon7212 강사님 깃허브
