@@ -1,9 +1,9 @@
 from package.moodels import Monster
 
 monsters = [
-    Monster("주황버섯", 1, 30, 5, 30),
-    Monster("슬라임", 2, 50, 10, 50),
-    Monster("핑크빈", 5, 100, 30, 100)
+    Monster("주황버섯", 1, 30, 30,5, 30),
+    Monster("슬라임", 2, 50, 50, 10, 50),
+    Monster("핑크빈", 5, 100, 100, 30, 100)
 ]
 
 shop_items = [
